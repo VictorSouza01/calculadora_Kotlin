@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ordem de servico</string>
+    <string name="form_cadastro">Efetuar cadastro</string>
+    <string name="form_login">Efetuar login</string>
+    <string name="form_empresa">Gerencie os dados da empresa</string>
+    <string name="form_ordem_servico">Gerenciar ordem de serviço</string>
+    <string name="click_me"><u>Clique aqui</u></string>
+    <string name="card_profile">Verifique todas as suas informações.</string>
+    <string name="card_ordem">Verifique ou faça novas ordens de serviço.</string>
+    <string name="card_empresa">Gerencie as informações da empresa.</string>
+</resources>
