@@ -4,9 +4,7 @@ This is a simple calculator written in Kotlin. It allows you to perform basic ma
 
 ## Tools Used
 
- <img height="24" title="git" alt="git" src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor"> 
- <img height="24" title="Android Studio" alt="Android Studio" src="https://img.icons8.com/?size=512&id=04OFrkjznvcd&format=png"> 
- <img height="24" title="Kotlin" alt="Kotlin" src="https://img.icons8.com/?size=512&id=ZoxjA0jZDdFZ&format=png"> 
+ <img height="24" title="git" alt="git" src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor"> <img height="24" title="Android Studio" alt="Android Studio" src="https://img.icons8.com/?size=512&id=04OFrkjznvcd&format=png"> <img height="24" title="Kotlin" alt="Kotlin" src="https://img.icons8.com/?size=512&id=ZoxjA0jZDdFZ&format=png"> 
 
 ## Features
 
