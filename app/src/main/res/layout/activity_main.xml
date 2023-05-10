@@ -5,28 +5,227 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:padding="10dp"
-    android:gravity="center_horizontal">
-
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/undraw_building_re_xfcm"/>
+    android:background="@color/black"
+    tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/company_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:padding="10dp"/>
+        android:id="@+id/Expressao"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="10dp"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:textSize="40sp"
+    />
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="10dp"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:textSize="30sp"
+        />
 
-    <Button
-        android:id="@+id/btnLoginActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_pill"
-        android:layout_marginTop="10dp"
-        android:text="efetuar login" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_marginLeft="333dp"
+
+        android:layout_weight="0.8">
+        <ImageView
+            android:id="@+id/BackSpace"
+            style="@style/Botoes"
+            android:src="@drawable/backspace"
+            android:layout_width="50dp"
+            android:layout_weight="0"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:backgroundTint="@color/black"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Limpar"
+            style="@style/Botoes"
+            android:text="C"
+            android:textColor="@color/DarkOrange"
+
+            />
+        <TextView
+            android:id="@+id/Null1"
+            style="@style/Botoes"
+            android:text=""
+
+            android:backgroundTint="@color/black"
+            />
+        <TextView
+            android:id="@+id/Null2"
+            style="@style/Botoes"
+            android:text=""
+
+            android:backgroundTint="@color/black"
+            />
+        <TextView
+            android:id="@+id/Divisao"
+            style="@style/Botoes"
+            android:text="÷"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.8">
+        <TextView
+            android:id="@+id/Sete"
+            style="@style/Botoes"
+            android:text="7"
+
+            />
+
+        <TextView
+            android:id="@+id/Oito"
+            style="@style/Botoes"
+            android:text="8"
+
+            />
+
+        <TextView
+            android:id="@+id/Nove"
+            style="@style/Botoes"
+            android:text="9"
+
+            />
+
+        <TextView
+            android:id="@+id/Mult"
+            style="@style/Botoes"
+            android:text="x"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.8">
+
+
+        <TextView
+            android:id="@+id/Quatro"
+            style="@style/Botoes"
+            android:text="4"
+
+            />
+
+        <TextView
+            android:id="@+id/Cinco"
+            style="@style/Botoes"
+            android:text="5"
+
+            />
+
+        <TextView
+            android:id="@+id/Seis"
+            style="@style/Botoes"
+            android:text="6"
+
+            />
+
+        <TextView
+            android:id="@+id/Sub"
+            style="@style/Botoes"
+            android:text="-"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.8">
+
+        <TextView
+            android:id="@+id/Um"
+            style="@style/Botoes"
+            android:text="1"
+
+            />
+        <TextView
+            android:id="@+id/Dois"
+            style="@style/Botoes"
+            android:text="2"
+
+            />
+        <TextView
+            android:id="@+id/Tres"
+            style="@style/Botoes"
+            android:text="3"
+
+            />
+        <TextView
+            android:id="@+id/Soma"
+            style="@style/Botoes"
+            android:text="+"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.8">
+
+        <TextView
+            android:id="@+id/Null3"
+            style="@style/Botoes"
+            android:text=""
+
+                android:backgroundTint="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/Zero"
+            style="@style/Botoes"
+            android:text="0"
+
+            />
+
+        <TextView
+            android:id="@+id/Ponto"
+            style="@style/Botoes"
+            android:text="."
+
+            />
+
+        <TextView
+            android:id="@+id/VerResultado"
+            style="@style/Botoes"
+            android:text="="
+            android:backgroundTint="@color/MediumSeaGreen"
+            />
+    </LinearLayout>
 
 </LinearLayout>
+
+
+

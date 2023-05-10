@@ -1,4 +1,4 @@
-package com.fatec.ordemservico
+package com.calculadora.calculadora
 
 import org.junit.Test
 
